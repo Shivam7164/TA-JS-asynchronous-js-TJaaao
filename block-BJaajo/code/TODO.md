@@ -69,7 +69,7 @@ function asyncForEach(arr,cb){
 
 console.log('one');
 asyncForEach([1, 2, 3], (num) => console.log(num));
-console.log('three');
+console.log('three')
 
 
 9. Convert the following function into asynchronous. The output of the function will be
