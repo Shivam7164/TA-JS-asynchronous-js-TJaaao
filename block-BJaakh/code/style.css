@@ -1,0 +1,88 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: tan;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*  */
+
+.container{
+    border: 2px solid black;
+    background-color: #ffff;
+    max-width: 400px;
+    margin: 2rem auto 0 auto;
+    padding: 0 32px;
+}
+.text{
+    width: 100%;
+    padding: 0.6rem 0 0.5rem 1rem;
+    border: 2px solid rgb(99, 112, 126);
+    border-radius: 2px;
+    outline-color: rgb(16, 59, 216);
+    margin: 1.3rem 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.root li{
+    display: flex;
+    border-bottom: 2px dashed black;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+}
+.root li p{
+   margin: 0 1rem;
+}
+.color{
+    border: 2px solid black;
+}
+
+.internetError{
+    text-align: center;
+    color: red;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
